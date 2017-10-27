@@ -1,0 +1,81 @@
+@charset "UTF-8";
+html, body, div, p, form, ul, li, ol, dl, dt, dd, table, tr, td, th, hr, h1, h2, h3, h4, h5, h6, img, input {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  font-family: "微软雅黑",Arial;
+  font-size: 16px; }
+
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
+img {
+  border: none;
+  display: block; }
+
+#header {
+  width: 100%;
+  height: 30px;
+  background: #f2f2f2;
+  border-bottom: 2px solid #8a7e7e; }
+  #header img {
+    margin-left: 88px; }
+  #header span {
+    display: block;
+    font-size: 12px;
+    margin-left: 712px;
+    margin-top: -18px;
+    color: #89779e; }
+  #header #spanId02 {
+    margin-top: -16px;
+    margin-left: 860px; }
+  #header #spanId03 {
+    margin-top: -16px;
+    margin-left: 900px; }
+  #header #spanId04 {
+    margin-top: -16px;
+    margin-left: 980px; }
+  #header a:hover span {
+    color: red; }
+
+#two {
+  width: 100%;
+  height: 354px;
+  background: #f2f2f0; }
+  #two img {
+    margin: 0px  140px; }
+  #two #two_right {
+    width: 440px;
+    height: 42px;
+    background: #ffffff;
+    margin: -172px 701px;
+    display: flex; }
+  #two #two_right img {
+    width: 145px;
+    height: 41px;
+    margin-left: 2px;
+    margin-right: 0px; }
+
+#two_but {
+  position: relative;
+  width: 998px;
+  height: 140px;
+  background: #fff;
+  margin: 316px 140px; }
+
+#two_but img {
+  width: 100px;
+  height: 100px;
+  padding: 37px 0px; }
+
+#two_but span {
+  position: absolute;
+  left: 307px;
+  top: 55px; }
+
+/*# sourceMappingURL=gouwuche.css.map */

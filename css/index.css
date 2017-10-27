@@ -68,6 +68,7 @@ a:hover span{
 #dlId p{
     font-size: 14px;
     margin:10px 0px;
+    
 }
 #btn{
 	display: block;
@@ -172,6 +173,7 @@ a:hover span{
 	height:42px;
 	margin:4px 540px;
 	cursor:pointer;
+	position: relative;
 }
 
 #three p{
@@ -187,7 +189,7 @@ a:hover span{
 #four{
 	width:150px;
 	height:44px;
-	margin:-49px 705px;
+	margin:-47px 705px;
 	cursor:pointer;
 }
 
@@ -218,9 +220,13 @@ a:hover span{
 }
 
 #dlId{
+	position: absolute;
+	left: 10px;
 	margin:-2px 38px;
 	display:none;
+	z-index:999;
 }
+
 #dlId p{
 	font-size:14px;
 	margin-left:-10px;
@@ -269,37 +275,6 @@ a:hover span{
 	margin-left:10px;
 	color:pink;
 }
-#rti{
-	width:300px;
-	height:400px;
-	background:red;
-	position:absolute;
-	left:0px;
-	top:0px;
-	
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #six{
 	position:relative;

@@ -141,4 +141,23 @@ paginationClickable: true,
     pagination: '.swiper-pagination',
 
    
-  })        
+  })      
+ function $(id){
+ 	return document.getElementById(id);
+ }
+window.onload=function(){
+	$("nanku").onmouseover=function(){
+		$("dlId").style.display="block";
+		$("nanku").style.background="#ec0971";
+	}
+	$("nanku").onmouseout=function(){
+		$("dlId").style.display="none";
+	}
+	
+    $("one").onmouseover=function(){
+		$("left").style.display="block";
+	}
+	$("one").onmouseout=function(){
+		$("left").style.display="none";
+	}
+}
